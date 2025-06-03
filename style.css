@@ -1,0 +1,61 @@
+:root {
+    --bg-color: #3b3b3b;         /* Fundo geral: cinza médio-escuro */
+    --text-color: #e0e0e0;       /* Texto: cinza claro */
+    --code-bg: #2a2a2a;          /* Bloco de código: cinza escuro */
+    --code-border: #2a2a2a;      /* Mesma cor da borda para suavidade */
+    --button-bg: #4a4a4a;
+    --button-hover: #5a5a5a;
+    --button-text: #f0f0f0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 24px;
+    font-size: 2rem;
+}
+
+button {
+    background-color: var(--button-bg);
+    color: var(--button-text);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: var(--button-hover);
+}
+
+.code {
+    background-color: var(--code-bg);
+    border: 1px solid var(--code-border); /* mesma cor = borda sutil */
+    border-radius: 6px;
+    padding: 12px 16px;
+    font-family: 'Courier New', Courier, monospace;
+    white-space: pre-wrap;
+    margin-top: 20px;
+    max-width: 600px;
+    width: 100%;
+    word-wrap: break-word;
+}
