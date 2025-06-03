@@ -21,9 +21,11 @@ Este repositório contém exercícios práticos sobre operadores aritméticos ut
 
 `bash
    git clone https://github.com/PedroOliveira-N/operadores-aritmeticos-atividades.git`
+   
 2. Acesse o diretório do projeto:
 
 `bash
 cd operadores-aritmeticos-atividades`
+
 3. Abra o arquivo em um navegador de sua preferência.
 
